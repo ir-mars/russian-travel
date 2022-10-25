@@ -1,0 +1,10 @@
+.intro {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;    
+    max-width: 690px;
+    max-height: 429px;
+    margin: 0;
+    padding-left: 148px;
+}
