@@ -6,10 +6,10 @@
     line-height: 18px;
     text-decoration: none;
     color: #fff;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .footer__link:hover {
-    transition: linear .5s;
+    transition: linear .2s;
     opacity: .5;
 }
