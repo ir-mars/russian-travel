@@ -1,3 +1,27 @@
 .place__paragraph-box {
     max-width: 484px;
 }
+
+@media screen and (max-width: 1124px) {
+    .place__paragraph-box {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .place__paragraph-box {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .place__paragraph-box {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .place__paragraph-box {
+        max-width: 288px;
+    }
+}

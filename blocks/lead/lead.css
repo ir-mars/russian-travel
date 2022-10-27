@@ -1,8 +1,21 @@
 .lead {
     font-family: 'Inter', Arial, sans-serif;
-    max-width: 984px;
+    max-width: calc(100% - 296px);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 1124px) {
+    .lead {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
