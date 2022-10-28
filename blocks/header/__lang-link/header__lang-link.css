@@ -5,14 +5,23 @@
     line-height: 28px;
     color: #fff;
     margin-top: 18px;
+    margin-right: 18px;
     opacity: 1;
 }
 
 .header__lang-link:nth-of-type(2) {
     text-decoration: none;
+    margin-right: 0;
 }
 
 .header__lang-link:hover {
     transition: linear .2s;
     opacity: .5;
+}
+
+@media screen and (max-width: 688px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px; 
+    }
 }
