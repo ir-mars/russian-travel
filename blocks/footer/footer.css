@@ -1,9 +1,9 @@
 .footer {
     font-family: 'Inter', Arial, sans-serif;
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     max-width: 1184px;
-    min-height: 18px;    
+    min-height: 18px;
     padding: 0 48px;
     margin: 0;    
 }
