@@ -1,5 +1,4 @@
 .footer__link {
-    margin-right: 18px;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -10,19 +9,13 @@
 
 .footer__link:hover {
     transition: linear .2s;
-    opacity: .5;
+    opacity: .8;
 }
 
 @media screen and (max-width: 688px) {
     .footer__link {
-        margin-bottom: 32px;
         font-size: 24px;
-        line-height: 24px;
+        line-height: 24px;    
     }
 }
 
-@media screen and (max-width: 688px) {
-    .footer__link:last-of-type {
-        margin-bottom: 0;
-    }
-}
