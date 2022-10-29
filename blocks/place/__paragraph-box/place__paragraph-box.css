@@ -1,31 +1,11 @@
 .place__paragraph-box {
-    max-width: 484px;
+    max-width: 100%;
 }
 
-@media screen and (max-width: 1124px) {
-    .place__paragraph-box {
-        max-width: 456px;
-    }
-}
-
-@media screen and (max-width: 986px) {
-    .place__paragraph-box {
-        max-width: 400px;
-    }
-}
-
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 686px) {
     .place__paragraph-box {
         margin-right: 16px;
         margin-left: 16px;
         max-width: calc(100% - 32px);
-    }
-}
-
-@media screen and (max-width: 468px) {
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 288px;
     }
 }

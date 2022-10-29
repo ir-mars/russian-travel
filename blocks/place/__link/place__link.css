@@ -8,23 +8,5 @@
 
 .place__link:hover {
     transition: linear;
-    opacity: .5;
-}
-
-@media screen and (max-width: 1124px) {
-    .place__link {
-        max-width: 456px;
-    }
-}
-
-@media screen and (max-width: 984px) {
-    .place__link {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .place__link {
-        max-width: 288px;
-    }
+    opacity: .8;
 }
